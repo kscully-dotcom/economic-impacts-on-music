@@ -5,11 +5,11 @@ rows = []
 headers = ['year', 'track rank', 'track name', 'track artist']
 
 
-for year in range(1960, 2023):
+for year in range(1960, 2022):
     chart = []
     print("Scraping year {}".format(year))
     chart = billboard.ChartData('hot-100', date="{}-12-31".format(year))
-    for i in range (0, 51):
+    for i in range (0, 49):
         cells = []
         entry = chart[i]
         track_title = entry.title
