@@ -22,5 +22,5 @@ for i in range(1920, 2017):
         track_artist = tr.find('a', {'class':'artist'}).text.replace('\n', '')
         cells = [i] + [track_rank] + [track_name] + [track_artist]
         rows.append(cells)
-        df = pd.DataFrame(rows, columns=headers)
-df.to_excel('playbackfm-1920-2016.xlsx', index=False)
+df = pd.DataFrame(rows, columns=headers)
+df.to_csv('playbackfm-1920-2016.csv', index=False)
