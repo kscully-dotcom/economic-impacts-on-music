@@ -1,0 +1,3 @@
+#!c:\users\java\documents\github\economic-impacts-on-music\scripts\python.exe
+from numba.pycc import main
+main()
