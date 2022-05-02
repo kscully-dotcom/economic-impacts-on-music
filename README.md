@@ -10,3 +10,8 @@
  <li> Hot 100 song features dataframe by kcseanmiller on data.world</li>
  <li> Real Gross Domestic Product from fred.stlouisfed.org/series/GPDC1</li>
  </ul>
+
+<h2>Conclusion</h2>
+<br>
+<p>With the linear regression model, I extracted the coefficients of each of the variables to develop a stochastic equation. If the songs had the features listed within the stochastic equation, they would add or subtract the coefficient times the recorded value from the recession score. If the score was more significant than 0.5, the model predicted the song was recorded during a recession. Otherwise, it was recorded as not being in a recession. The model's accuracy turned out to do very well, with a score of 96.4% accurate predictions across the model with as little as one fold.</p>
+<p>In conclusion, danceability, acoustics, speechiness, energy, instrumentals, and liveness predicted the catastrophic economic events while these songs were on the Billboard Hot 100 list. With this model, in the following data practicum, I will develop a predictor script to predict future songs and their performance during a recession. I have areas in which to expand my machine learning skills, and I will take classes next year to handle significant data issues. </p>
