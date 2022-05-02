@@ -1,15 +1,12 @@
-<h1> Economic Crises on Music </h1>
-<h2>Can we predict the music post-COVID-19 based on historical data?</h2>
-Analysis of the following:
-<br>
-<ul>
- <li>cross-sectional dataset billboard top 100 songs today and </li>
- <li>top songs of the economic ups and downs since 1920 </li>
- </ul>
+<h1> Music Industry during Catastrophic Economic Events </h1>
+<p>What music features do fans of the billboard top 100 songs listen to more during recessions vs. during economic growth and stagnation? Based on these features, can we predict whether a song was popular during a recession?</p>
+
+<h2>Data</h2>
+<p>The Billboard Hot 100 lists the top trending songs each week. After running into several issues with scraping the Spotify website and the overall tax on my small machine, that data was outsourced. For this paper, Sean Miller gathered data from the Billboard Hot 100 from 1958 to 2021. He has gathered the Hot 100 songs and a dataset with the song features from Spotify's API.</p>
+
 <h3>Datasets</h3>
 <ul>
- <li>playback.fm song lists from 1920-2016</li>
- <li>billboard hot 100 from 1960 to 2022</li>
- <li>spotify audio features of each song in the datasets above</li>
- <li>lyrics of each song from Genuis.com in txt file format</li>
+ <li> Billboard Hot 100 from 1960 to 2021</li>
+ <li> Hot 100 song features dataframe by kcseanmiller on data.world</li>
+ <li> Real Gross Domestic Product from fred.stlouisfed.org/series/GPDC1</li>
  </ul>
