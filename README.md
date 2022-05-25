@@ -18,4 +18,4 @@
 
 <h2>Noteable Results</h2>
 <br>
-<p>I was surprised to find that "liveness" was a noteable indicator of songs that tracked during recessions. Songs that were listed on the Billboard hot 100 list had a greater chance of being popular during a recession. This may be due to the costs associated with attending live events as well as the public policies that inhibited them from attending crowded events as seen during the COVID-19 pandemic.</p>
+<p>I was surprised to find that "liveness" was a noteable indicator of songs that tracked during recessions. Live songs that were listed on the Billboard hot 100 list had a greater chance of being popular during a recession. This may be due to the costs associated with attending live events as well as the public policies that inhibited them from attending crowded events as seen during the COVID-19 pandemic.</p>
